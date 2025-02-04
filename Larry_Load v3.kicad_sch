@@ -3361,7 +3361,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 142.24) (xy 83.82 142.24)
+			(xy 58.42 151.13) (xy 83.82 151.13)
 		)
 		(stroke
 			(width 0)
@@ -3541,7 +3541,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 148.59) (xy 83.82 148.59)
+			(xy 58.42 157.48) (xy 83.82 157.48)
 		)
 		(stroke
 			(width 0)
@@ -4502,7 +4502,7 @@
 		(uuid 3a013b4c-4765-493a-afc1-aa0f926f41bd)
 	)
 	(rectangle
-		(start 33.655 73.66)
+		(start 25.4 73.66)
 		(end 66.675 88.265)
 		(stroke
 			(width 0)
@@ -4548,6 +4548,18 @@
 			(type none)
 		)
 		(uuid de38be80-678c-4b73-81e6-181aba137ebd)
+	)
+	(rectangle
+		(start 51.435 134.62)
+		(end 98.425 160.655)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ee300190-343b-4bf6-8d5f-f0034300b8e5)
 	)
 	(text "Off Board"
 		(exclude_from_sim no)
@@ -4639,6 +4651,16 @@
 		)
 		(uuid "9344e299-4c45-4227-a743-8adc1394d031")
 	)
+	(text "Battery traces on back panel"
+		(exclude_from_sim no)
+		(at 73.406 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9889317b-8ecf-4974-9914-106ddf0fc6ea")
+	)
 	(text "Off Board"
 		(exclude_from_sim no)
 		(at 45.974 75.438 0)
@@ -4681,7 +4703,7 @@
 		(uuid "010b72be-b1f5-4f70-bbd3-e5e746ef59c8")
 	)
 	(label "B-"
-		(at 71.12 148.59 0)
+		(at 71.12 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4846,7 +4868,7 @@
 		(uuid "e7488d63-4a68-4306-a19c-1f0ddd8bf0a1")
 	)
 	(label "B+"
-		(at 69.85 142.24 0)
+		(at 69.85 151.13 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6138,7 +6160,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 83.82 148.59 0)
+		(at 83.82 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6147,7 +6169,7 @@
 		(fields_autoplaced yes)
 		(uuid "3962d6a4-580b-4a3c-9290-c331bf944fcc")
 		(property "Reference" "TP10"
-			(at 86.36 144.0179 0)
+			(at 86.36 152.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6178,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 86.36 146.5579 0)
+			(at 86.36 155.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6165,7 +6187,7 @@
 			)
 		)
 		(property "Footprint" "0_Custom_Footprints:TestPoint_Pad_4.0x6.0mm"
-			(at 88.9 148.59 0)
+			(at 88.9 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,7 +6196,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 148.59 0)
+			(at 88.9 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6205,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 83.82 148.59 0)
+			(at 83.82 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8048,7 +8070,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 58.42 148.59 0)
+		(at 58.42 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8057,7 +8079,7 @@
 		(fields_autoplaced yes)
 		(uuid "870aaff2-ce14-485b-82d5-91c063e9641e")
 		(property "Reference" "TP2"
-			(at 60.96 144.0179 0)
+			(at 60.96 152.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8066,7 +8088,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 60.96 146.5579 0)
+			(at 60.96 155.4479 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8075,7 +8097,7 @@
 			)
 		)
 		(property "Footprint" "0_Custom_Footprints:TestPoint_Pad_4.0x6.0mm"
-			(at 63.5 148.59 0)
+			(at 63.5 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8084,7 +8106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 148.59 0)
+			(at 63.5 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8093,7 +8115,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 58.42 148.59 0)
+			(at 58.42 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8131,7 +8153,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 Turn Potentiometer"
+		(property "Value" "30kΩ 10-Turn Potentiometer"
 			(at 59.182 81.534 0)
 			(effects
 				(font
@@ -10240,7 +10262,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 83.82 142.24 0)
+		(at 83.82 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10249,7 +10271,7 @@
 		(fields_autoplaced yes)
 		(uuid "df5fe9df-dd22-4d20-a744-da7132899f5b")
 		(property "Reference" "TP9"
-			(at 86.36 137.6679 0)
+			(at 86.36 146.5579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10258,7 +10280,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 86.36 140.2079 0)
+			(at 86.36 149.0979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10267,7 +10289,7 @@
 			)
 		)
 		(property "Footprint" "0_Custom_Footprints:TestPoint_Pad_4.0x6.0mm"
-			(at 88.9 142.24 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10276,7 +10298,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 142.24 0)
+			(at 88.9 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10285,7 +10307,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 83.82 142.24 0)
+			(at 83.82 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11243,7 +11265,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 58.42 142.24 0)
+		(at 58.42 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11252,7 +11274,7 @@
 		(fields_autoplaced yes)
 		(uuid "fddd1f81-b1ef-4623-b094-f50002843a47")
 		(property "Reference" "TP1"
-			(at 60.96 137.6679 0)
+			(at 60.96 146.5579 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11261,7 +11283,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 60.96 140.2079 0)
+			(at 60.96 149.0979 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11270,7 +11292,7 @@
 			)
 		)
 		(property "Footprint" "0_Custom_Footprints:TestPoint_Pad_4.0x6.0mm"
-			(at 63.5 142.24 0)
+			(at 63.5 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11279,7 +11301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 142.24 0)
+			(at 63.5 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11288,7 +11310,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 58.42 142.24 0)
+			(at 58.42 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
