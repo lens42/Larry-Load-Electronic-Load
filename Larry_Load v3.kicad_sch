@@ -4502,7 +4502,7 @@
 		(uuid 3a013b4c-4765-493a-afc1-aa0f926f41bd)
 	)
 	(rectangle
-		(start 25.4 73.66)
+		(start 19.685 73.66)
 		(end 66.675 88.265)
 		(stroke
 			(width 0)
@@ -4681,7 +4681,7 @@
 		)
 		(uuid "a576be74-4c56-4b85-bb59-a90dc4a28693")
 	)
-	(text "Set for 1.000V at POT_CW\nResistor array for \nseries/parallel combo to \ntrim value wihtout a trim pot"
+	(text "Set for 1.000V at POT_CW\nResistor array for \nseries/parallel combo to \ntrim value without a trim pot"
 		(exclude_from_sim no)
 		(at 41.656 53.34 0)
 		(effects
@@ -8153,7 +8153,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "30kΩ 10-Turn Potentiometer"
+		(property "Value" "20kΩ to 100kΩ 10-Turn Potentiometer"
 			(at 59.182 81.534 0)
 			(effects
 				(font
@@ -8435,7 +8435,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "8.06k"
 			(at 200.66 130.8099 0)
 			(effects
 				(font
@@ -8653,7 +8653,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "50k"
 			(at 236.22 118.11 90)
 			(effects
 				(font
