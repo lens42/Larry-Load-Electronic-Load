@@ -59,7 +59,6 @@
         }
       ],
       "drc_exclusions": [
-        "silk_overlap|135865000|79119978|cdb89d45-1f17-415b-b420-73489cdb4d1e|3afe3030-de9e-4d29-86c5-6b321b6fc9a7",
         "starved_thermal|162560000|81000000|b2e3c031-4b13-47b5-bb30-039e7ea191f2|49297872-13f1-412b-987e-e26a4f305ec3|B.Cu"
       ],
       "meta": {

@@ -7642,7 +7642,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "50k"
 			(at 0 -1.82 0)
 			(layer "B.Fab")
 			(uuid "95423244-991a-4a40-86ee-2618868fbca2")
@@ -8518,7 +8518,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "8.06k"
 			(at -5.3 -0.25 0)
 			(layer "B.Fab")
 			(uuid "5bff74ae-a24b-4d6b-ae07-5e970659629f")
@@ -11426,7 +11426,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "TKISL21080DIH312Z-TK"
+		(property "Value" "REF3312AIDBZR"
 			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(uuid "fadfdd78-4477-4363-841d-3294f6c8f927")
@@ -11452,7 +11452,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/renesas-electronics-corporation/ISL21080DIH312Z-TK/2551515"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/texas-instruments/REF3312AIDBZR/1900120"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -12486,7 +12486,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C3"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "B.SilkS")
 			(uuid "295b85e5-a71f-4ce9-bd31-cc95b28293f7")
 			(effects
@@ -12498,7 +12498,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "B.Fab")
 			(uuid "1f76e77d-7e1e-452c-adf5-cc7955cd87f7")
 			(effects
@@ -12657,7 +12657,7 @@
 			(uuid "0d11bcca-81d1-4df7-b070-3a5f0ff1bb32")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e5605cea-3dd9-44fe-8b21-191950e78291")
 			(effects
@@ -15263,7 +15263,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "100uF"
+		(property "Value" "47uF"
 			(at 0 -4.349999 0)
 			(layer "B.Fab")
 			(uuid "050a8789-8e7f-4e7a-9f5a-056279fe6980")
